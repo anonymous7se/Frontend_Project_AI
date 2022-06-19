@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('../webfonts/');
+    src: url('../webfonts/?#iefix') format('embedded-opentype'),
+    url('../webfonts/Montserrat-Light.woff') format('woff'),
+    url('../webfonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('../webfonts/Montserrat-Regular.eot');
+    src: url('../webfonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Montserrat-Regular.woff') format('woff'),
+    url('../webfonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Montserrat Italic';
+    src: url('../webfonts/Montserrat-Italic.eot');
+    src: url('../webfonts/Montserrat-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Montserrat-Italic.woff') format('woff'),
+    url('../webfonts/Montserrat-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('../webfonts/Montserrat-Medium.eot');
+    src: url('../webfonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Montserrat-Medium.woff') format('woff'),
+    url('../webfonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../webfonts/Montserrat-ExtraBold.eot');
+    src: url('../webfonts/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Montserrat-ExtraBold.woff') format('woff'),
+    url('../webfonts/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@mixin light {
+    font-family: 'Montserrat Light', sans-serif;
+}
+
+@mixin regular {
+    font-family: 'Montserrat Regular', sans-serif;
+}
+
+@mixin italic {
+    font-family: 'Montserrat Italic', sans-serif;
+}
+
+@mixin medium {
+    font-family: 'Montserrat Medium', sans-serif;
+}
+
+@mixin bold {
+    font-family: 'Montserrat Bold', sans-serif;
+}
+
